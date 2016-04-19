@@ -2,11 +2,119 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Welcome to the gorgeous SEDONA</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Фото и видео</a>
+            </li>
+            <li>
+              <img src="img/logo city-of-sedona.png" width="40" height="40" alt="Логотип City of Sedona»">
+            </li>
+            <li>
+              <a href="#">Карта штата</a>
+            </li>
+            <li>
+              <a href="#">Гостиница</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="image-mountains">
+      <img src="img/mountains.png" width="400" height="200" alt="Фото Горы Седона">
+    </div>
+      <h2>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
+      <h3>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</h3>
+    <div class="№1">
+      <div class="№1-left">
+        <h2 class="№1-left">НАСТОЯЩИЙ<br>ГОРОДОК</h2>
+        <p class="№1-left">- №1 -</p>
+        <p class="№1-left">СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+      </div>
+      <div class="№1-right">
+        <img src="img/image-house№1.png" width="350" height="150" alt="Фото Дом Open Range">
+      </div>
+    </div>
+    <div class="life">
+      <div class="motel">
+        <img src="img/motel.png" width="50" height="50" alt="Жилье">
+        <h2>ЖИЛЬЕ</h2>
+        <p>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЕ КАК В КИНО!</p>
+      </div>
+      <div class="food">
+        <img src="img/food.png" width="50" height="50" alt="ЕДА">
+        <h2>ЕДА</h2>
+        <p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
+      </div>
+      <div class="souvenir">
+        <img src="img/souvenir.png" width="50" height="50" alt="СУВЕНИРЫ">
+        <h2>СУВЕНИРЫ</h2>
+        <p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
+      </div>
+    </div>
+    <div class="№2">
+      <div class="№2-left">
+        <img src="img/red-rocks-№1.png" width="350" height="150" alt="Фото Красные горы г.Седона">
+      </div>
+      <div>
+        <h2 class="№2-right">ТАМ ЕСТЬ<br>МОСТ ДЬЯВОЛА</h2>
+        <p class="№2">- №2 -</p>
+        <p class="№2">ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ</p>
+      </div>
+    </div>
+    <div class="view">
+      <div class="№3">
+        <h2 class="№3">НЕБОЛЬШАЯ<br>ПЛОЩАДЬ</h2>
+          <p class="№3">- №3 -</p>
+          <p class="№3">ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+      </div>
+      <div class="№4">
+        <h2 class="№4">КРАСИВАЯ<br>ДОРОГА</h2>
+        <p class="№4">- №4 -</p>
+        <p class="№4">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</p>
+      </div>
+      <div class="№5">
+        <h2 class="№5">МАЛО<br>ТУРИСТОВ</h2>
+        <p class="№5">- №5 -</p>
+        <p class="№5">БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ</p>
+      </div>
+    </div>
+    <div class="reservation">
+      <h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+      <p>УКАЖИТЕ ПРЕДПОЛАНАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br>И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+      <article class="reservation">
+        <h3>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h3>
+        <form>
+          <p>ДАТА ЗАЕЗДА: <input type="date" name="calendar">
+          <p>ДАТА ВЫЕЗДА: <input type="date" name="calendar">
+          <p>ВЗРОСЛЫЕ: <input type="number" name="quantity" min="0" max="30">
+          <p>ДЕТИ: <input type="number" name="quantity" min="0" max="30">
+          <input type="submit" value="НАЙТИ"></p>
+        </form>
+      </article>
+    </div>
+     <img src="map-sedona" width="500" height="300" alt="Карта г.Седона">
   </body>
+  <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">#VISITSEDONA</section>
+        <section class="footer-social">
+          <a class="social-btn social-btn-twitter" href="#">Twitter</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-youtube" href="#">Youtube</a>
+        </section>
+        <section class="footer-copyright">
+          <p>WEBSITE BY</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
 </html>
