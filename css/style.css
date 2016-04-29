@@ -1,26 +1,145 @@
-body {font-size: 14px;
-      line-height: 21px;
-      color: #333333;
-      font-weight: normal;
-    font-family: PT Sans Regular;}
+body {width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  line-height: 21px;
+  height: 760px;
+  color: #333333;
+  font-weight: normal;
+  font-family: PT Sans Regular;}
+.container {width: 768px;
+  margin-left: auto;
+  margin-right: auto;}
+main-header {min-width: 70px;
+  background: white;}
+.container .main-navigation-left {float: left;
+  min-height: 10px;
+  width: 40%;
+    margin-left: 0;}
+.container .main-navigation-right {float: right;
+                        min-height: 10px;
+                        width: 40%;
+    margin-right: 0;}
+.logo {float: left;
+    width: 7%;
+    min-height: 50px;
+        margin: 0;}
+.mountains {clear: both;
+        width: 768px;
+        height: 514px;
+        margin-left: auto;
+        margin-right: auto;}
+.intro {width: 768px;
+       height: 110px;
+      margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    background:white;}
 h2 {font-size: 21px;
       line-height: 26px;
       color: #000000;
       font-weight: bold;
-    font-family: PT Sans Bold;}
+    font-family: PT Sans Bold;
+    padding: center;}
 .block-title {font-size: 21px;
       color: #ffffff;
       font-weight: bold;
-    font-family: PT Sans Bold;}
-.block-1 {font-size: 14px;
+    font-family: PT Sans Bold;
+padding: center;}
+.block-1 {clear: both; 
+          width: 768px;
+            min-height: 258px;
+    margin-top: 20px;
+    margin-left: auto;
+        margin-right: auto;
+}
+.block-1 .block-text {width: 33%;
+    min-height: 256px;
+    float: left;
+    font-size: 14px;
       line-height: 21px;
       color: #ffffff;
       font-weight: normal;
       font-family: PT Sans Regular;
       background-color: #81b3d2;}
-.block-2 {font-size: 14px;
+.block-1 .block-image {float: right;
+    width: 66%;
+         min-height: 258px;
+         margin-right: 0;}
+.container-1 {clear: both;
+            width: 768px;
+             min-height: 225px;
+        margin-left: auto;
+        margin-right: auto;
+background: white;}
+.container-1 {width: 768px;
+             min-height: 220px;
+            margin: 0 auto;}
+.container-1 .feature-motel {float: left;
+                width: 33%;
+                min-height: 220px;
+                margin: 0;}
+.container-1 .feature-food {
+                float: left;
+                width: 33%;
+                min-height: 220px;
+                margin: 0;}
+.container-1 .feature-souvenir {
+                float: right;
+                width: 33%;
+                min-height: 220px;
+                margin: 0;}
+.block-2 {clear: both; 
+          width: 768px;
+            min-height: 258px;
+    margin-top: 20px;
+    margin-left: auto;
+        margin-right: auto;
+}
+.block-2 .block-image {float: left;
+    width: 66%;
+         min-height: 258px;
+         margin: 0;}
+.block-2 .block-text {width: 33%;
+    min-height: 256px;
+    float: right;
+    font-size: 14px;
       line-height: 21px;
       color: #ffffff;
       font-weight: normal;
       font-family: PT Sans Regular;
       background-color: #81b3d2;}
+.container-2 {width: 768px;
+             min-height: 220px;
+            margin-left: auto;
+            margin-right: 0 auto;}
+.container-2 .feature3 {float: left;
+                width: 33%;
+                min-height: 220px;
+                margin: 0;}
+.container-2 .feature4 {float: left;
+                width: 33%;
+                min-height: 220px;
+                margin-right: 0;}
+.container-2 .feature5 {float: left;
+                width: 33%;
+                min-height: 220px;
+                margin-right: 0;}
+.reservation {clear: both;
+        width: 650px;
+         min-height: 600px;
+         margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        background: url("img/map-sedona.jpg") no-repeat 50% 768px/590px auto;}
+main-footer {min-width: 70px;
+            background: white 50% 3px;}
+.footer-contacts {float: left;
+                width: 33%;
+                    min-height: 120px;}
+.footer-social {float: left;
+                width: 33%;
+                    min-height: 120px;}
+.footer-copyright {float: right;
+                width: 33%;
+                    min-height: 120px;}
