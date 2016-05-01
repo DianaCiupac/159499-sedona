@@ -1,26 +1,312 @@
-body {font-size: 14px;
-      line-height: 21px;
-      color: #333333;
-      font-weight: normal;
-    font-family: PT Sans Regular;}
-h2 {font-size: 21px;
-      line-height: 26px;
-      color: #000000;
-      font-weight: bold;
-    font-family: PT Sans Bold;}
-.block-title {font-size: 21px;
-      color: #ffffff;
-      font-weight: bold;
-    font-family: PT Sans Bold;}
-.block-1 {font-size: 14px;
-      line-height: 21px;
-      color: #ffffff;
-      font-weight: normal;
-      font-family: PT Sans Regular;
-      background-color: #81b3d2;}
-.block-2 {font-size: 14px;
-      line-height: 21px;
-      color: #ffffff;
-      font-weight: normal;
-      font-family: PT Sans Regular;
-      background-color: #81b3d2;}
+body {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    font-weight: normal;
+    font-family: "PT Sans";
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.main-navigation-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+.main-navigation-list li {
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+.main-navigation-right {
+    float: right;
+}
+.logo {
+    width: 137px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -68.5px;
+}
+.mountains {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.mountains img {
+    width: 100%;
+}
+.intro {
+    margin-top: 20px;
+    text-align: center;
+}
+h2 {
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+}
+.block-title {
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: center;
+    text-align: center;
+}
+.block-1 {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 0;
+}
+.block-1 .block-text {
+    width: 33%;
+    padding: 40px 0;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: normal;
+    text-align: center;
+    background-color: #81b3d2;
+    display: inline-block;
+    vertical-align: top;
+}
+.block-image {
+    width: 66%;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.block-1 .block-image img{
+    width: 800px;
+}
+.container-1 {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.container-1 .feature-motel {
+    width: 33%;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.container-1 .feature-food {
+    width: 33%;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.container-1 .feature-souvenir {
+    width: 33%;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.block-2 {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 0;
+}
+.block-2 .block-image {
+    width: 66%;
+    margin: 0 auto;
+    position: inherit;
+    display: inline-block;
+    vertical-align: top;
+}
+.block-2 .block-text {
+    width: 33%;
+    padding: 40px 0;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: normal;
+    text-align: center;
+    background-color: #81b3d2;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.container-2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+.container-2 .feature3 {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.container-2 .feature4 {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.container-2 .feature5 {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.reservation-index {
+    width: 575px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.reservation-interes {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.reservation {
+    width: 575px;
+    margin: 0 auto;
+    text-align: inherit;
+    background: white;
+    position: relative;
+    z-index: 2;
+}
+.reservation-title {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background: #766357;
+}
+form {
+    padding: 20px;
+}
+.map {
+    margin: 0 auto;
+    margin-top: -235px;
+    text-align: center;
+    z-index: 1;
+}
+.sorting {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: url("../img/mountains-blurry.jpg") no-repeat;
+}
+.sorting-content {padding: 30px 75px;}
+.sorting-type {
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+}
+.sorting-price {
+    width: 330px;
+    margin-left: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.finded {
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0 75px;
+}
+.finded-item {
+    width: 140px;
+    display: inline-block;
+    vertical-align: top;
+}
+.finded-sorting {
+    width: 565px;
+    display: inline-block;
+    vertical-align: top;
+}
+.sorting-title {
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+.icon {
+    float: right;
+    width: 40px;
+}
+.icon-down {
+    display: inline-block;
+    vertical-align: top;
+}
+.icon-up {
+    display: inline-block;
+    vertical-align: top;
+}
+.hotels {
+    width: 1050px;
+    margin: 0 auto;
+    padding: 0 75px;
+}
+.hotel {margin-top: 20px;}
+.hotel-img {
+    width: 150px;
+    padding: 25px 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.hotel-description {
+    width: 260px;
+    display: inline-block;
+    vertical-align: top;
+}
+.hotel-raiting {
+    float: right;
+}
+.hotel-type {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+}
+.hotel-price {
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+.more {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+}
+.reserve {
+    width: 140px;
+    display: inline-block;
+    vertical-align: top;
+}
+.main-footer {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.footer-contacts {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-social {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-copyright {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.htmlacademy{
+    width: 85px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+}
