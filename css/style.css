@@ -193,36 +193,35 @@ form {
     z-index: 1;
 }
 .sorting {
-    margin-top: 20px;
-    background: url("img/mountains-blurry.jpg") no-repeat;
-}
-.sorting-content {
     width: 1200px;
     margin: 0 auto;
+    margin-top: 20px;
+    background: url("../img/mountains-blurry.jpg") no-repeat;
 }
+.sorting-content {/* margin: 0 75px; */padding: 30px 75px;}
 .sorting-type {
     width: 240px;
     display: inline-block;
     vertical-align: top;
 }
 .sorting-price {
-    width: 240px;
+    width: 330px;
     margin-left: 200px;
     display: inline-block;
     vertical-align: top;
 }
-
 .finded {
     width: 1200px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 .finded-item {
-    width: 150px;
+    width: 140px;
     display: inline-block;
     vertical-align: top;
 }
 .finded-sorting {
-    width: 375px;
+    width: 565px;
     display: inline-block;
     vertical-align: top;
 }
@@ -231,8 +230,9 @@ form {
     display: inline-block;
     vertical-align: top;
 }
-.icon {width: 40px;
-    margin-left: 490px;
+.icon {
+    width: 40px;
+    margin-left: 430px;
     display: inline-block;
     vertical-align: top;
 }
@@ -248,15 +248,16 @@ form {
     width: 1200px;
     margin: 0 auto;
 }
-.hotel {
-}
+.hotel {margin-top: 20px;}
 .hotel-img {
     width: 150px;
+    padding: 25px 0;
     display: inline-block;
     vertical-align: top;
 }
 .hotel-description {
-    width: 700px;
+    width: 260px;
+    /* margin-top: 0; */
     display: inline-block;
     vertical-align: top;
 }
@@ -264,6 +265,7 @@ form {
     width: 100px;
     display: inline-block;
     vertical-align: top;
+    margin-left: 680px;
 }
 .hotel-type {
     width: 110px;
@@ -285,6 +287,11 @@ form {
     display: inline-block;
     vertical-align: top;
 }
+.main-footer {
+    width: 1200;
+    margin: 0 auto;
+    margin-top: 40px;
+}
 .footer-contacts {
     width: 33%;
     display: inline-block;
@@ -297,6 +304,11 @@ form {
 }
 .footer-copyright {
     width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.htmlacademy{
+    width: 85px;
     display: inline-block;
     vertical-align: top;
 }
