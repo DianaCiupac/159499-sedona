@@ -61,7 +61,8 @@ h2 {
 .block-1 {
     width: 1200px;
     margin: 0 auto;
-margin-top: 20px;
+    margin-top: 20px;
+    font-size: 0;
 }
 .block-1 .block-text {
     width: 33%;
@@ -78,7 +79,6 @@ margin-top: 20px;
 .block-image {
     width: 66%;
     margin: 0 auto;
-    position: absolute;
     display: inline-block;
     vertical-align: top;
 }
@@ -188,8 +188,8 @@ form {
 }
 .map {
     margin: 0 auto;
-    margin-top: -19%;
-    position: relative;
+    margin-top: -235px;
+    text-align: center;
     z-index: 1;
 }
 .sorting {
@@ -198,7 +198,7 @@ form {
     margin-top: 20px;
     background: url("../img/mountains-blurry.jpg") no-repeat;
 }
-.sorting-content {/* margin: 0 75px; */padding: 30px 75px;}
+.sorting-content {padding: 30px 75px;}
 .sorting-type {
     width: 240px;
     display: inline-block;
@@ -211,9 +211,10 @@ form {
     vertical-align: top;
 }
 .finded {
-    width: 1200px;
+    width: 1050px;
     margin: 0 auto;
     margin-top: 20px;
+    padding: 0 75px;
 }
 .finded-item {
     width: 140px;
@@ -231,10 +232,8 @@ form {
     vertical-align: top;
 }
 .icon {
+    float: right;
     width: 40px;
-    margin-left: 430px;
-    display: inline-block;
-    vertical-align: top;
 }
 .icon-down {
     display: inline-block;
@@ -245,8 +244,9 @@ form {
     vertical-align: top;
 }
 .hotels {
-    width: 1200px;
+    width: 1050px;
     margin: 0 auto;
+    padding: 0 75px;
 }
 .hotel {margin-top: 20px;}
 .hotel-img {
@@ -257,15 +257,11 @@ form {
 }
 .hotel-description {
     width: 260px;
-    /* margin-top: 0; */
     display: inline-block;
     vertical-align: top;
 }
 .hotel-raiting {
-    width: 100px;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 680px;
+    float: right;
 }
 .hotel-type {
     width: 110px;
@@ -288,9 +284,10 @@ form {
     vertical-align: top;
 }
 .main-footer {
-    width: 1200;
+    width: 1200px;
     margin: 0 auto;
     margin-top: 40px;
+    text-align: center;
 }
 .footer-contacts {
     width: 33%;
