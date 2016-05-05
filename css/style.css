@@ -9,6 +9,8 @@ body {
     width: 1200px;
     margin: 0 auto;
     margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .main-navigation-list {
     margin: 0;
@@ -25,8 +27,29 @@ body {
 .main-navigation-right {
     float: right;
 }
+.main-navigation a {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    line-height: 26px;
+    text-decoration: none;
+}
+.main-navigation a:hover {
+    color: #81b3d2;
+}
+.main-navigation a:down {
+    opacity: 0.3;
+}
+.main-navigation a:active {
+    color: #766357;
+}
+.main-navigation a:hover:active {
+    color: #604e43;
+}
+.main-navigation a:down:active {
+    color: #604e43;
+}
 .logo {
-    width: 137px;
     position: absolute;
     left: 50%;
     top: 0;
@@ -42,7 +65,10 @@ body {
     width: 100%;
 }
 .intro {
-    margin-top: 20px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
     text-align: center;
 }
 h2 {
@@ -51,21 +77,27 @@ h2 {
     color: #000000;
     font-weight: bold;
 }
+p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #333333;
+}
 .block-title {
     font-size: 21px;
+    line-height: 21px;
     color: #ffffff;
     font-weight: bold;
-    padding: center;
+    margin: 0 100px;
     text-align: center;
 }
 .block-1 {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 0;
 }
-.block-1 .block-text {
-    width: 33%;
+.block-text {
+    width: 33.3%;
     padding: 40px 0;
     font-size: 14px;
     line-height: 21px;
@@ -77,37 +109,29 @@ h2 {
     vertical-align: top;
 }
 .block-image {
-    width: 66%;
+    width: 66.7%;
     margin: 0 auto;
     display: inline-block;
     vertical-align: top;
 }
-.block-1 .block-image img{
-    width: 800px;
-}
-.container-1 {
+.feature-item {
     width: 1200px;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
     text-align: center;
 }
-.container-1 .feature-motel {
-    width: 33%;
+.feature-item .feature {
+    width: 24%;
     margin: 0;
+    padding: 0 4.55%;
+    text-align: center;
     display: inline-block;
     vertical-align: top;
 }
-.container-1 .feature-food {
-    width: 33%;
-    margin: 0;
-    display: inline-block;
-    vertical-align: top;
-}
-.container-1 .feature-souvenir {
-    width: 33%;
-    margin: 0;
-    display: inline-block;
-    vertical-align: top;
+.container-2 {
+    background: #eeeeee;
+    padding: 40px 0;
 }
 .block-2 {
     width: 1200px;
@@ -115,62 +139,25 @@ h2 {
     margin-top: 20px;
     font-size: 0;
 }
-.block-2 .block-image {
-    width: 66%;
-    margin: 0 auto;
-    position: inherit;
-    display: inline-block;
-    vertical-align: top;
-}
-.block-2 .block-text {
-    width: 33%;
-    padding: 40px 0;
-    font-size: 14px;
-    line-height: 21px;
+.block-1 p,
+.block-2 p {
+    margin: 28px 45px 0;
     color: #ffffff;
-    font-weight: normal;
-    text-align: center;
-    background-color: #81b3d2;
-    display: inline-block;
-    vertical-align: top;
-
-}
-.container-2 {
-    width: 1200px;
-    margin: 0 auto;
-}
-.container-2 .feature3 {
-    width: 33%;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-}
-.container-2 .feature4 {
-    width: 33%;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-}
-.container-2 .feature5 {
-    width: 33%;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
 }
 .reservation-index {
     width: 575px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 60px;
     text-align: center;
 }
 .reservation-interes {
     font-size: 30px;
     font-weight: bold;
 }
-
 .reservation {
     width: 575px;
     margin: 0 auto;
+    margin-top: 50px;
     text-align: inherit;
     background: white;
     position: relative;
@@ -184,11 +171,48 @@ h2 {
     background: #766357;
 }
 form {
-    padding: 20px;
+    padding: 48px 60px;
+}
+.form-cell {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    padding: 7px 0;
+}
+.form-text {
+    float: left;
+    width: 100px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+}
+.form-cell-person {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+}
+.form-cell input {
+    float: right;
+    width: 329px;
+    padding: 14px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000;
+    font-family: "PT Sans";
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
 }
 .map {
     margin: 0 auto;
-    margin-top: -235px;
+    margin-top: -294px;
     text-align: center;
     z-index: 1;
 }
@@ -198,11 +222,28 @@ form {
     margin-top: 20px;
     background: url("../img/mountains-blurry.jpg") no-repeat;
 }
-.sorting-content {padding: 30px 75px;}
+.sorting-content {
+    padding: 30px 75px;
+}
 .sorting-type {
     width: 240px;
     display: inline-block;
     vertical-align: top;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+}
+.type-title {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+    color: white;
+}
+label [type="checkbox"] {
+    display: none;
+}
+.sorting-check {
+    margin-top: 21px;
 }
 .sorting-price {
     width: 330px;
@@ -213,29 +254,75 @@ form {
 .finded {
     width: 1050px;
     margin: 0 auto;
-    margin-top: 20px;
-    padding: 0 75px;
+    padding: 20px 75px;
+    border-bottom: 2px solid #e5e5e5;
 }
 .finded-item {
     width: 140px;
     display: inline-block;
     vertical-align: top;
+    padding-right: 10px;
 }
 .finded-sorting {
-    width: 565px;
+    width: 600px;
     display: inline-block;
     vertical-align: top;
+    font-size: 12px;
+    line-height: 18px;
 }
-.sorting-title {
+.sorting-critery {
+    width: 400px;
+    margin-top: 23px;
+    font-size: 12px;
+    line-height: 18px;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+}
+.sorting-critery li {
     width: 100px;
     display: inline-block;
     vertical-align: top;
+    color: #000;
+    opacity: 0.3;
+    text-align: center;
+    text-decoration: none;
+}
+.sorting-critery a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+}
+.sorting-critery a:active {
+    opacity: 1;
+}
+.sorting-critery a:hover {
+    color: #81b3d2;
+    opacity: 1;
+}
+.critery-active a {
+    color: #81b3d2;
+    opacity: 1;
+}
+.sorting-title {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 4px;
 }
 .icon {
     float: right;
-    width: 40px;
+    margin-left: 10px;
+    color: #cccccc;
+}
+.icon:hover {
+    color: #000;
+}
+.icon:active {
+    color: #81b3d2;
 }
 .icon-down {
+    color: #81b3d2;
     display: inline-block;
     vertical-align: top;
 }
@@ -244,27 +331,69 @@ form {
     vertical-align: top;
 }
 .hotels {
-    width: 1050px;
+    width: 1200px;
     margin: 0 auto;
-    padding: 0 75px;
 }
-.hotel {margin-top: 20px;}
+.hotel {
+    padding: 30px 75px;
+    border-bottom: 2px solid #e5e5e5;
+}
 .hotel-img {
     width: 150px;
-    padding: 25px 0;
     display: inline-block;
     vertical-align: top;
 }
 .hotel-description {
-    width: 260px;
+    width: 300px;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
     display: inline-block;
     vertical-align: top;
 }
+.hotel-description h2 {
+    margin: 0 auto;
+}
+.hotel-description h2:hover {
+    color: #81b3d2;
+}
+.hotel-description h2:down {
+    opacity: 0.3;
+}
+.hotel-type {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #333333;
+}
+.hotel-price {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #333333;
+}
 .hotel-raiting {
     float: right;
+    text-align: right;
+}
+.raiting-stars {
+    font-size: 17px;
+    line-height: normal;
+    color: #81b3d2;
+}
+.raiting-vote {
+    width: 110px;
+    padding: 7px;
+    font-size: 14px;
+    line-height: 21px;
+    line-height: normal;
+    color: #666666;
+    text-align: center;
+    background: #f2f2f2;
 }
 .hotel-type {
     width: 110px;
+    margin-right: 10px;
     display: inline-block;
     vertical-align: top;
 }
@@ -275,22 +404,63 @@ form {
 }
 .more {
     width: 110px;
+    background: #81b3d2;
+    color: #fff;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px 0;
+    margin-right: 10px;
     display: inline-block;
     vertical-align: top;
 }
+.more:hover {
+    background: #669ec0;
+}
+.more:down {
+    background: #5496bd;
+    opacity: rbga(255, 255, 255, 0.3);
+}
 .reserve {
-    width: 140px;
+    width: 145px;
+    background: #766357;
+    color: #fff;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px;
     display: inline-block;
     vertical-align: top;
+}
+.reserve:hover {
+    background: #604e43;
+}
+.reserve:down {
+    background: #503e33;
+    opacity: rbga(255, 255, 255, 0.3);
 }
 .main-footer {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 40px;
+    padding: 4px;
     text-align: center;
+}
+.container-index {
+    padding: 25px 0;
+    background-color: rgba(253, 253, 253, 0.9);
+    position: relative;
+    top: -100px;
+    z-index: 2;
 }
 .footer-contacts {
     width: 33%;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
     display: inline-block;
     vertical-align: top;
 }
@@ -299,14 +469,36 @@ form {
     display: inline-block;
     vertical-align: top;
 }
+.social-btn {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    color: #fff;
+    background: #81b3d2;
+}
+.social-btn:hover {
+    background: #669ec0;
+}
+.social-btn:active {
+    background: #5496bd;
+    opacity: 0.3;
+}
 .footer-copyright {
     width: 33%;
+    font-weight: normal;
     display: inline-block;
     vertical-align: top;
 }
-.htmlacademy{
+.htmlacademy {
     width: 85px;
+    color: #000;
     display: inline-block;
     vertical-align: top;
     margin: 0 auto;
+}
+.htmlacademy:hover {
+    color: #5496bd;
+}
+.htmlacademy:active {
+    color: #bdbbbc;
 }

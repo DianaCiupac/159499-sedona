@@ -37,29 +37,30 @@
      <div class="sorting-content">
       <div class="sorting-type">
         <p class="type-title">ИНФРАСТРУКТУРА:</p>
-        <label> <input type="checkbox" name="swimming-pool" checked>БАССЕЙН</label>
-          <div>
+        <div class="sorting-check"><label> <input type="checkbox" name="swimming-pool" checked>БАССЕЙН</label>
+          </div>
+          <div class="sorting-check">
             <label> <input type="checkbox" name="parking">ПАРКОВКА</label>
           </div>
-          <div>
+          <div class="sorting-check">
             <label> <input type="checkbox" name="wi-fi">WI-FI</label>
           </div>
         </div>
         <div class="sorting-type">
           <p class="type-title">ТИП ЖИЛЬЯ:</p>
-          <div>
+          <div class="sorting-check">
             <label> <input type="checkbox" name="hotel" checked>ГОСТИНИЦА</label>
           </div>
-          <div>
+          <div class="sorting-check">
             <label> <input type="checkbox" name="motel" checked>МОТЕЛЬ</label>
           </div>
-          <div>
+          <div class="sorting-check">
             <label> <input type="checkbox" name="appartment" checked>АПАРТАМЕНТЫ</label>
           </div>
         </div>
       <div class="sorting-price">
         <div class="select-price">
-          <p class="type title">СТОИМОСТЬ В СУТКИ (Р):</p>
+          <p class="type-title">СТОИМОСТЬ В СУТКИ (Р):</p>
           <label><input type="text" name="min" value="ОТ 0"></label>
           <label><input type="text" name="max" value="ДО 3000"></label><br>
           <label><input type="range" min="0" max="3000"></label>
@@ -74,13 +75,15 @@
       </div>
       <div class="finded-sorting">
         <p class="sorting-title">СОРТИРОВКА:</p>
-        <a href="#">ПО ЦЕНЕ</a>
-        <a href="#">ПО ТИПУ</a>
-        <a href="#">ПО РЕЙТИНГУ</a>
+        <ul class="sorting-critery">
+        <li class="critery-active"><a href="#">ПО ЦЕНЕ</a></li>
+        <li><a href="#">ПО ТИПУ</a></li>
+        <li><a href="#">ПО РЕЙТИНГУ</a></li>
+          </ul>
         </div>
       <div class="icon">
-        <p class="icon-down">&#9660;</p>
-        <p class="icon-up">&#9650;</p>
+        <p class="icon icon-down">&#9660;</p>
+        <p class="icon icon-up">&#9650;</p>
       </div>
     </div>
     <div class="hotels">
