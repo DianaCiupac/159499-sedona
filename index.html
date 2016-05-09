@@ -28,7 +28,7 @@
                     </li>
                 </ul>
                 <div class="logo">
-                    <img src="img/logo.png" alt="Логотип City of Sedona»">
+                    <a href="/"><img src="img/logo.png" alt="Логотип City of Sedona»"></a>
                 </div>
             </nav>
         </div>
@@ -51,20 +51,20 @@
         </div>
     </div>
     <div class="feature-item container-1">
-            <div class="feature motel">
-                <img src="img/motel.png" alt="Жилье">
-                <h2 class="title">ЖИЛЬЕ</h2>
-                <p class="description">РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЕ КАК В КИНО!</p>
+        <div class="feature motel">
+            <img src="img/motel.png" alt="Жилье">
+            <h2 class="title">ЖИЛЬЕ</h2>
+            <p class="description">РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЕ КАК В КИНО!</p>
         </div>
-            <div class="feature food">
-                <img src="img/food.png" alt="ЕДА">
-                <h2 class="title">ЕДА</h2>
-                <p class="description">ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
+        <div class="feature food">
+            <img src="img/food.png" alt="ЕДА">
+            <h2 class="title">ЕДА</h2>
+            <p class="description">ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
         </div>
-            <div class="feature souvenir">
-                <img src="img/souvenir.png" alt="СУВЕНИРЫ">
-                <h2 class="title">СУВЕНИРЫ</h2>
-                <p class="description">НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
+        <div class="feature souvenir">
+            <img src="img/souvenir.png" alt="СУВЕНИРЫ">
+            <h2 class="title">СУВЕНИРЫ</h2>
+            <p class="description">НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
 
         </div>
     </div>
@@ -79,56 +79,68 @@
         </div>
     </div>
     <div class="feature-item container-2">
-            <div class="feature feature3">
-                <h2 class="title">НЕБОЛЬШАЯ<br>ПЛОЩАДЬ</h2>
-                <p class="annotation">— №3 —</p>
-                <p class="description">ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
-            </div>
-            <div class="feature feature4">
-                <h2 class="title">КРАСИВАЯ<br>ДОРОГА</h2>
-                <p class="annotation">— №4 —</p>
-                <p class="description">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br> НЕ СКУЧНО!</p>
-            </div>
-            <div class="feature feature5">
-                <h2 class="title">МАЛО<br>ТУРИСТОВ</h2>
-                <p class="annotation">— №5 —</p>
-                <p class="description">БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ</p>
-            </div>
+        <div class="feature feature3">
+            <h2 class="title">НЕБОЛЬШАЯ<br>ПЛОЩАДЬ</h2>
+            <p class="annotation">— №3 —</p>
+            <p class="description">ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+        </div>
+        <div class="feature feature4">
+            <h2 class="title">КРАСИВАЯ<br>ДОРОГА</h2>
+            <p class="annotation">— №4 —</p>
+            <p class="description">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ
+                <br> НЕ СКУЧНО!</p>
+        </div>
+        <div class="feature feature5">
+            <h2 class="title">МАЛО<br>ТУРИСТОВ</h2>
+            <p class="annotation">— №5 —</p>
+            <p class="description">БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ</p>
+        </div>
     </div>
-       <div class="reservation-index">
+    <div class="reservation-index">
         <p class="reservation-interes">ЗАИНТЕРЕСОВАЛИСЬ?</p>
-        <p>УКАЖИТЕ ПРЕДПОЛАНАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br> И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
-       </div>
-        <article class="reservation">
-            <h2 class="reservation-title">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
-            <form>
-                <div class="form-cell"><p class="form-text">ДАТА ЗАЕЗДА:</p>
-                    <label class="form-input"><input type="date" name="calendar"></label></div>
-                    <div class="form-cell"><p class="form-text">ДАТА ВЫЕЗДА:</p>
-                        <label class="form-input"><input type="date" name="calendar"></label></div>
-                        <div class="form-cell-person"><p class="form-text person">ВЗРОСЛЫЕ:</p>
-                            <label class="form-input"><input type="number" name="quantity" min="0" max="30"></label></div>
-                            <div class="form-cell-person"><p class="form-text person">ДЕТИ:</p>
-                                <label class="form-input"><input type="number" name="quantity" min="0" max="30">
-                                <input type="submit" value="НАЙТИ">
-                                </label></div>
-            </form>
-        </article>
+        <p>УКАЖИТЕ ПРЕДПОЛАНАЕМЫЕ ДАТЫ ПОЕЗДКИ,
+            <br> И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+        <h2 class="reservation-title">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
+        <form>
+            <div class="form-index">
+                <div class="form-cell form-cell-date-entry">
+                    <label class="form-text">ДАТА ЗАЕЗДА:</label>
+                    <input type="date" id="calendar" name="calendar"><span class="icon-calendar"></span>
+                </div>
+                <div class="form-cell form-cell-date-exit">
+                    <label class="form-text">ДАТА ВЫЕЗДА:</label>
+                    <input type="date" id="calendar" name="calendar"><span class="icon-calendar"></span>
+                </div>
+                <div class="form-cell-quantity form-cell-quantity1">
+                    <label class="form-text">ВЗРОСЛЫЕ:</label>
+                    <input type="number" id="quantity" name="quantity" min="0" max="30">
+                    <span class="icon-minus"></span><span class="icon-plus"></span>
+                </div>
+                <div class="form-cell-quantity form-cell-quantity2">
+                    <label class="form-text form-text-child">ДЕТИ:</label>
+                    <input type="number" id="quantity" name="quantity" min="0" max="30">
+                    <span class="icon-minus"></span><span class="icon-plus"></span>
+                </div>
+                <input type="submit" id="find" value="НАЙТИ">
+            </div>
+        </form>
+    </div>
     <div class="map"><img src="img/map-sedona.jpg" alt="Карта г. Седона">
     </div>
 </body>
-<footer class="main-footer">
-    <div class="container  container-index">
+<footer class="main-footer main-footer-index">
+    <div class="container">
         <div class="footer-contacts">#VISITSEDONA</div>
         <div class="footer-social">
             <a class="social-btn social-btn-twitter" href="#">Twitter</a>
-            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-facebook" href="#">Фейсбук</a>
             <a class="social-btn social-btn-youtube" href="#">Youtube</a>
         </div>
         <div class="footer-copyright">
             <p class="htmlacademy">WEBSITE BY</p>
-            <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+            <a class="btn" id="htmlacademy-logo" href="https://htmlacademy.ru">HTML Academy</a>
         </div>
     </div>
 </footer>
+
 </html>
