@@ -6,6 +6,9 @@ body {
     font-family: "PT Sans";
 }
 .body-shadow {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
 }
 @font-face {
@@ -307,8 +310,10 @@ p {
     width: 460px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -598px;
+    margin-top: -623px;
+    background-color: #fff;
     z-index: 5;
+    position: absolute;
 }
 .form-cell {
     font-size: 14px;
@@ -372,11 +377,11 @@ p {
     color: #a9a9a9;
 }
 .form-cell-date-entry .icon-calendar {
-    top: 299px;
+    top: 66px;
     right: 78px;
 }
 .form-cell-date-exit .icon-calendar {
-    top: 366px;
+    top: 132px;
     right: 79px;
 }
 input [type="date"] {
@@ -389,11 +394,11 @@ input [type="date"] {
     color: #a9a9a9;
 }
 .form-cell-quantity1 .icon-plus {
-    top: 430px;
-    left: 311px;
+    top: 194px;
+    left: 312px;
 }
 .form-cell-quantity2 .icon-plus {
-    top: 430px;
+    top: 194px;
     left: 544px;
 }
 .icon-minus {
@@ -404,11 +409,11 @@ input [type="date"] {
     color: #a9a9a9;
 }
 .form-cell-quantity1 .icon-minus {
-    top: 435px;
-    left: 177px;
+    top: 200px;
+    left: 175px;
 }
 .form-cell-quantity2 .icon-minus {
-    top: 435px;
+    top: 200px;
     left: 410px;
 }
 #quantity {
@@ -836,6 +841,7 @@ label {
     background-color: rgba(253, 253, 253, 0.9);
     position: relative;
     padding-top: 21px;
+    padding-bottom: 25px;
     margin-top: -115px;
     z-index: 2;
 }
