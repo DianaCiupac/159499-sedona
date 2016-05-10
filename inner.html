@@ -38,51 +38,54 @@
             <div class="sorting-type">
                 <p class="type-title">ИНФРАСТРУКТУРА:</p>
                 <div class="sorting-check">
-                    <label>
-                        <input type="checkbox" id="checkbox" checked>БАССЕЙН</label>
+                    <input type="checkbox" id="checkbox-1" checked>
+                    <label for="checkbox-1">БАССЕЙН</label>
                 </div>
                 <div class="sorting-check">
-                    <label>
-                        <input type="checkbox" id="checkbox">ПАРКОВКА</label>
+                    <input type="checkbox" id="checkbox-2">
+                    <label for="checkbox-2">ПАРКОВКА</label>
                 </div>
                 <div class="sorting-check">
-                    <label>
-                        <input type="checkbox" id="checkbox">WI-FI</label>
+                    <input type="checkbox" id="checkbox-3">
+                    <label for="checkbox-3">WI-FI</label>
                 </div>
             </div>
             <div class="sorting-type">
                 <p class="type-title">ТИП ЖИЛЬЯ:</p>
                 <div class="sorting-check">
-                    <label>
-                        <input type="checkbox" id="checkbox" checked>
-                        <div class="ico-checkbox"></div>ГОСТИНИЦА</label>
+                    <input type="checkbox" id="checkbox-4" checked>
+                    <label for="checkbox-4">ГОСТИНИЦА</label>
                 </div>
                 <div class="sorting-check">
-                    <label>
-                        <input type="checkbox" id="checkbox" checked>
-                        <div class="ico-checkbox"></div>МОТЕЛЬ</label>
+                    <input type="checkbox" id="checkbox-5" checked>
+                    <label for="checkbox-5">МОТЕЛЬ</label>
                 </div>
                 <div class="sorting-check">
-                    <label>
-                        <input type="checkbox" id="checkbox" checked>
-                        <div class="ico-checkbox"></div>АПАРТАМЕНТЫ</label>
+                    <input type="checkbox" id="checkbox-6" checked>
+                    <label for="checkbox-6">АПАРТАМЕНТЫ</label>
                 </div>
             </div>
             <div class="sorting-price">
                 <div class="select-price">
                     <p class="type-title">СТОИМОСТЬ В СУТКИ (Р):</p>
-                    <label>
-                        <input type="text" name="min" value="ОТ 0">
-                    </label>
-                    <label>
-                        <input type="text" name="max" value="ДО 3000">
-                    </label>
-                    <br>
-                    <label>
-                        <input type="range" min="0" max="3000">
-                    </label>
+                    <div class="price-controls">
+                        <label class="min-price">ОТ
+                            <input type="text" name="min-price" value="0">
+                        </label>
+                        <label class="max-price">ДО
+                            <input type="text" name="max-price" value="3000">
+                        </label>
+                    </div>
+                    <div class="range-controls">
+                        <div class="scale">
+                            <div class="bar">
+                            </div>
+                        </div>
+                        <div class="range-toggle range-toggle-min"></div>
+                        <div class="range-toggle range-toggle-max"></div>
+                    </div>
+                    <button class="btn-transparent" type="submit">ПОКАЗАТЬ</button>
                 </div>
-                <a class="btn" href="#">ПОКАЗАТЬ</a>
             </div>
         </div>
     </div>
@@ -106,7 +109,7 @@
     <div class="hotels">
         <div class="hotel">
             <div class="hotel-img">
-                <img src="img/hotel-amara-resort-and-spa.jpg" width="130" height="100" alt="Фото гостиницы Amara Resort & SPA">
+                <img src="img/hotel-amara-resort-and-spa.jpg" alt="Фото гостиницы Amara Resort & SPA">
             </div>
             <div class="hotel-description">
                 <h2>AMARA RESORT & SPA</h2>
@@ -122,7 +125,7 @@
         </div>
         <div class="hotel">
             <div class="hotel-img">
-                <img src="img/motel-desert-quail-inn.jpg" width="130" height="100" alt="Фото мотеля DESERT QUAIL INN">
+                <img src="img/motel-desert-quail-inn.jpg" alt="Фото мотеля DESERT QUAIL INN">
             </div>
             <div class="hotel-description">
                 <h2>DESERT QUAIL INN</h2>
@@ -138,7 +141,7 @@
         </div>
         <div class="hotel">
             <div class="hotel-img">
-                <img src="img/apartment-villas-at-poco-diablo.jpg" width="130" height="100" alt="Фото апартамента VILLAS AT POCO DIABLO">
+                <img src="img/apartment-villas-at-poco-diablo.jpg" alt="Фото апартамента VILLAS AT POCO DIABLO">
             </div>
             <div class="hotel-description">
                 <h2>VILLAS AT POCO DIABLO</h2>
