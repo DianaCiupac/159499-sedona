@@ -34,19 +34,19 @@ body {
     content: "\2610";
 }
 
-/* "ÃƒÂ¢Ã‹Å“Ã‚Â" */
+/* "ÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã…â€œÃƒâ€šÃ‚Â" */
 
 .icon-check-on::before {
     content: "\2611";
 }
 
-/* "ÃƒÂ¢Ã‹Å“Ã¢â‚¬Ëœ" */
+/* "ÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã…â€œÃƒÂ¢Ã¢â€šÂ¬Ã‹Å“" */
 
 .icon-calendar::before {
     content: "\e800";
 }
 
-/* "ÃƒÂ®Ã‚Â Ã¢â€šÂ¬" */
+/* "ÃƒÆ’Ã‚Â®Ãƒâ€šÃ‚Â ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬" */
 
 .icon-plus::before {
     content: "\e801";
@@ -55,13 +55,13 @@ body {
     right: 39px;
 }
 
-/* "ÃƒÂ®Ã‚Â Ã‚Â" */
+/* "ÃƒÆ’Ã‚Â®Ãƒâ€šÃ‚Â Ãƒâ€šÃ‚Â" */
 
 .icon-minus::before {
     content: "\e802";
 }
 
-/* "ÃƒÂ®Ã‚Â Ã¢â‚¬Å¡" */
+/* "ÃƒÆ’Ã‚Â®Ãƒâ€šÃ‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡" */
 
 .container {
     width: 1200px;
@@ -235,7 +235,7 @@ p {
 .block-2 {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 28px;
+    margin-top: 25px;
     font-size: 0;
 }
 .block-2 h2{
@@ -263,13 +263,12 @@ p {
     text-align: center;
     background: white;
     position: relative;
-    z-index: 2;
 }
 .reservation-interes {
     font-size: 30px;
     font-weight: bold;
 }
-.reservation-title {
+.reservation-form {
     color: white;
     font-weight: bold;
     text-align: center;
@@ -277,9 +276,39 @@ p {
     margin: 0 auto;
     margin-top: 42px;
     background: #766357;
+    text-decoration: none;
+}
+.modal-content{
+    top: 120px;
+    left: 50px;
+    width: 568px;
+    background: #fff;
+    padding: 30px;
+    margin: 0 auto;
+}
+.modal-content-show{
+    display: block;
+}
+.reservation-title{
+    position: relative;
+    color: white;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 42px;
+    background: #766357;
+    text-decoration: none;
 }
 .form-index {
     padding: 54px;
+    width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -598px;
+    z-index: 5;
 }
 .form-cell {
     font-size: 14px;
@@ -414,9 +443,8 @@ input [type="date"] {
 }
 .map {
     margin: 0 auto;
-    margin-top: -396px;
     text-align: center;
-    z-index: 1;
+z-index: 1; */
 }
 .sorting {
     width: 1200px;

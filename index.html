@@ -105,8 +105,28 @@
             <p class="reservation-interes">ЗАИНТЕРЕСОВАЛИСЬ?</p>
             <p>УКАЖИТЕ ПРЕДПОЛАНАЕМЫЕ ДАТЫ ПОЕЗДКИ,
                 <br> И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
-            <h2 class="reservation-title">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
-            <form>
+            <div class="reservation-form"><a class="reservation-title" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+            </div>
+        </div>
+        <div class="map"><img src="img/map-sedona.jpg" alt="Карта г. Седона">
+        </div>
+        <footer class="main-footer main-footer-index">
+            <div class="container">
+                <div class="footer-contacts">#VISITSEDONA</div>
+                <div class="footer-social">
+                    <a class="social-btn social-btn-twitter" href="#">Twitter</a>
+                    <a class="social-btn social-btn-facebook" href="#">Фейсбук</a>
+                    <a class="social-btn social-btn-youtube" href="#">Youtube</a>
+                </div>
+                <div class="footer-copyright">
+                    <p class="htmlacademy">WEBSITE BY</p>
+                    <a class="btn" id="htmlacademy-logo" href="https://htmlacademy.ru">HTML Academy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal-content">
+               <form>
                 <div class="form-index">
                     <div class="form-cell form-cell-date-entry">
                         <label class="form-text">ДАТА ЗАЕЗДА:</label>
@@ -129,24 +149,46 @@
                     <input type="submit" id="find" value="НАЙТИ">
                 </div>
             </form>
-        </div>
-        <div class="map"><img src="img/map-sedona.jpg" alt="Карта г. Седона">
-        </div>
-        <footer class="main-footer main-footer-index">
-            <div class="container">
-                <div class="footer-contacts">#VISITSEDONA</div>
-                <div class="footer-social">
-                    <a class="social-btn social-btn-twitter" href="#">Twitter</a>
-                    <a class="social-btn social-btn-facebook" href="#">Фейсбук</a>
-                    <a class="social-btn social-btn-youtube" href="#">Youtube</a>
-                </div>
-                <div class="footer-copyright">
-                    <p class="htmlacademy">WEBSITE BY</p>
-                    <a class="btn" id="htmlacademy-logo" href="https://htmlacademy.ru">HTML Academy</a>
-                </div>
-            </div>
-        </footer>
     </div>
+    <script>
+      var link = document.querySelector(".reservation-title");
+
+       var popup = document.querySelector(".modal-content");
+      var close = popup.querySelector(".modal-content-close");
+
+      var form = popup.querySelector("form");
+      var form-cell = popup.querySelector("[name=calendar]");
+      var form-cell-quantity = popup.querySelector("[name=quantity]");
+        var storage = localStorage.getItem ("reservation-title"):
+
+      link.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.add("modal-content-show");
+        login.focus();
+      });
+
+      close.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.remove("modal-content-show");
+      });
+
+      form.addEventListener("submit", function(event) {
+        if (!form-cell.value || !form-cell-quantity.value) {
+          event.preventDefault();
+          console.log("Нужно ввести данные"); 
+             } else {
+          localStorage.setItem("form-cell", form-cell.value);
+        }
+      });
+
+      window.addEventListener("keydown", function(event) {
+        if (event.keyCode === 27) {
+          if (popup.classList.contains("modal-content-show")) {
+            popup.classList.remove("modal-content-show");
+          }
+        }
+      });
+    </script>
 </body>
 
 </html>
