@@ -1,24 +1,24 @@
-body {
-    font-size: 14px;
-    line-height: 21px;
-    color: #333333;
-    font-weight: normal;
-    font-family: "PT Sans", "Arial", sans-serif;
-}
-
-}
-.body-shadow {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 15px 15px rgba(0, 1, 1, 0.2);
-}
 @font-face {
     font-weight: normal;
     font-style: normal;
     font-family: "symbols-sedona";
     src: url("../fonts/symbols-sedona.woff") format("woff"), url("../fonts/symbols-sedona.woff2") format("woff2");
 }
+body {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    font-weight: normal;
+    font-family: "PT Sans", sans-serif;
+}
+
+.body-shadow {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
+}
+
 [class^="icon-"]::before,
 [class*=" icon-"]::before {
     display: inline-block;
@@ -158,13 +158,13 @@ p {
 .block-1 {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 49px;
+    margin-top: 50px;
     font-size: 0;
 }
 .block-text {
     width: 33.3%;
     padding-top: 48px;
-    padding-bottom: 53px;
+    padding-bottom: 33px;
     font-size: 14px;
     line-height: 21px;
     color: #ffffff;
@@ -189,11 +189,11 @@ p {
 .feature-item .feature {
     width: 24%;
     margin: 0;
-    padding: 31px 4.55%;
+    padding: 31px 4%;
     padding-bottom: 43px;
     text-align: center;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: bottom;
 }
 .feature-img {
     height: 100px;
@@ -226,7 +226,7 @@ p {
 .block-2 {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 26px;
+    margin-top: -1px;
     font-size: 0;
 }
 .block-2 h2 {
@@ -492,7 +492,6 @@ input [type="date"] {
 }
 .map {
     margin: 0 auto;
-    margin-top: -1px;
     text-align: center;
     z-index: 1;
 }
@@ -953,13 +952,13 @@ label {
     background-position: 5px -196px;
 }
 .footer-copyright {
-    width: 33%;
+    width: 32%;
     font-weight: normal;
     display: inline-block;
     padding-top: 4px;
 }
 .htmlacademy {
-    width: 85px;
+    width: 84px;
     color: #000;
     display: inline-block;
     vertical-align: top;
