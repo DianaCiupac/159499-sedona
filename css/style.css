@@ -141,7 +141,10 @@ p {
 	line-height: 26px;
 	color: #333333;
 }
-.intro p {
+.intro-description {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: normal;
 	padding-top: 10px;
 }
 .block-title {
@@ -210,7 +213,7 @@ p {
 	line-height: 100px;
 }
 .feature-img img {
-	vertical-align: bottom
+	vertical-align: bottom;
 }
 .feature-title {
 	line-height: 21px;
@@ -249,6 +252,7 @@ p {
 	margin: 24px 45px 0;
 	color: #ffffff;
 	font-size: 14px;
+    font-weight: normal;
 	line-height: 21px;
 }
 .block-description {
@@ -469,6 +473,7 @@ input [type="date"] {
 	width: 250px;
 }
 .type-title {
+    padding: 15px 0;
 	font-size: 16px;
 	line-height: 21px;
 	font-weight: bold;
@@ -542,6 +547,10 @@ label {
 	text-decoration: none;
 }
 .sorting-title {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 25px;
 	font-size: 12px;
 }
 .sorting-critery li {
@@ -687,8 +696,8 @@ label {
 }
 .icon {
 	float: right;
-	padding-top: 3px;
-	margin-left: 8px;
+	padding-top: 11px;
+	margin-left: 12px;
 	font-size: 13px;
 	color: #cccccc;
 }
@@ -760,7 +769,7 @@ label {
 .hotel-raiting {
 	float: right;
 	text-align: right;
-	margin-top: -26px;
+	margin-top: -6px;
 }
 .raiting-stars {
 	font-size: 19px;
@@ -800,8 +809,9 @@ label {
 	font-weight: normal;
 	text-align: center;
 	text-decoration: none;
-	padding: 4px 0;
+	padding: 3px 0;
 	margin-right: 0px;
+    margin-top: 15px;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -821,7 +831,8 @@ label {
 	font-weight: normal;
 	text-align: center;
 	text-decoration: none;
-	padding: 4px;
+	padding: 3px;
+    margin-top: 15px;
 	display: inline-block;
 	vertical-align: top;
 }
